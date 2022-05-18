@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="Course.css">
+    <link rel="stylesheet" href="mycss.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
+        </style>
+</head>
+</head>
+<body>
+    <h1 style="color: blue;" >XS Educatuib</h1>
+    <img src="xiaohui.jpg">
+    <div >
+      <ul class=daohang>
+        <li><a href="index.html" >Home page</a></li>
+        <li><a href="course.html" id="myst2">course</a></li>
+        <li><a href="Map.html">Map</a></li>
+      </ul>
+
+      <div class="showTime"></div>
+      <script src="myjs.js"></script>
+
+      <table  border="10">
+        <caption></caption>
+        
+      
+
+
+      
+
+
+
+
+      <tr>
+          <td id="myst">Inquire about my courses</td> </tr>
+    
+          <div class="wrapper">
+            
+    
+            <div class="content">
+                <table border="10">
+                    <caption>Chinese course Planning</caption>
+                       <tr>
+                  
+                           <th bgcolor="aqua">Time</th>
+                           <th bgcolor="aqua">Planning</th>
+                       </tr>
+                  
+                       <tr>
+                           <td bgcolor="rgb(255, 230, 5)">5.1-5.10</td> 
+                           <td bgcolor="rgb(255, 230, 5)">Learning poems</td></tr>
+                  
+                  
+                       <tr>
+                           <td bgcolor="aqua">5.11-5.20</td>
+                           <td bgcolor="aqua">Learning rhyme</td></tr>
+                  
+                       
+                       <tr>
+                           <td bgcolor="rgb(255, 230, 5)">5.21-5.31</td>
+                           <td bgcolor="rgb(255, 230, 5)">Learning chuci</td></tr>
+                   </table></div>
+    
+    
+    
+            <div class="content">
+                <table border="10">
+                    <caption>Math course planning</caption>
+                       <tr>
+                  
+                           <th bgcolor="aqua">Time</th>
+                           <th bgcolor="aqua">Plannning</th>
+                       </tr>
+                  
+                       <tr>
+                           <td bgcolor="rgb(255, 230, 5)">5.1-5.11</td> 
+                           <td bgcolor="rgb(255, 230, 5)">Learning function</td></tr>
+                  
+                  
+                       <tr>
+                           <td bgcolor="aqua">5.12-5.20</td>
+                           <td bgcolor="aqua">Learning derivatives and differentials</td></tr>
+                  
+                       
+                       <tr>
+                           <td bgcolor="rgb(255, 230, 5)">5.21-5.30</td>
+                           <td bgcolor="rgb(255, 230, 5)">Learning the application of derivatives</td></tr>
+                   </table></div>
+    
+            <div class="content">
+                <table border="10">
+                    <caption>English course planning</caption>
+                       <tr>
+                  
+                           <th bgcolor="aqua">Time</th>
+                           <th bgcolor="aqua">Plannning</th>
+                       </tr>
+                  
+                       <tr>
+                           <td bgcolor="rgb(255, 230, 5)">5.1-5.10</td> 
+                           <td bgcolor="rgb(255, 230, 5)">Learning the sentence</td></tr>
+                  
+                  
+                       <tr>
+                           <td bgcolor="aqua">5.11-5.21</td>
+                           <td bgcolor="aqua">Learning prepositions</td></tr>
+                  
+                       
+                       <tr>
+                           <td bgcolor="rgb(255, 230, 5)">5.22-5.31</td>
+                           <td bgcolor="rgb(255, 230, 5)">Learning attributive clause</td></tr>
+                   </table></div>
+    
+        </div>
+         
+        <script>
+            var btn = document.getElementsByTagName('button');
+            var div = document.getElementsByClassName('content');
+         
+            for (var i = 0; i < btn.length; i++) {
+              
+                (function (n) {
+                    btn[n].onclick = function () {
+                       
+                        for (var j = 0; j < btn.length; j++) {
+                            btn[j].className = "";
+                            div[j].style.display = "none";
+                        }
+                        this.className = "active";
+                        div[n].style.display = "block";
+                    }
+         
+                }(i))
+            }
+         
+        </script>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="zs">In this resource, we will learn about the concept of functions</h1> 
+                <a href="https://www.bilibili.com/video/BV1X5411a7r5">
+                <button>Resource 1</button>
+            </a>
+    
+
+
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1 id="zs">In this resource, We will learn about the parts of speech of words</h1> 
+            <a href="https://www.bilibili.com/video/BV18b4y1t7Uj">
+                <button>Resource 2</button>
+            </a>
+    
+
+
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1 id="zs">In this resource, We're going to learn about calculus</h1> 
+            <a href="https://www.bilibili.com/video/BV1wu411Z7ED">
+                <button>Resource 3</button>
+            </a>
+    
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1 id="zs">In this resource, We're going to learn how to do things like cloze</h1> 
+            <a href="https://www.bilibili.com/video/BV13U4y1N779">
+                <button>Resource 4</button>
+            </a>
+    
+
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h1 id="zs">In this resource,We will learn some basic knowledge of Chinese and show you how to learn Chinese and how to plan your study  </h1> 
+            <a href="https://www.bilibili.com/video/BV1Mt4y1C76E">
+                <button>Resource 5</button>
+            </a>
+    
+        
+    
+
+
+
+
+
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+
+
+
+
+
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+
+
+
+
+  
+
+  <div class="w3-content w3-display-container" style="max-width:800px">
+    <img class="mySlides" src="xh3.png" width="800" height="400">
+    <img class="mySlides" src="xh2.png" width="800" height="400" >
+    <img class="mySlides" src="L.jpg" width="800" height="400" >
+    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    </div>
+  </div>
+
+
+  
+
+  
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " w3-white";
+    }
+    </script>
+
+<footer>  
+    The creator of this website is Courtier
+      </footer>
+</body>
+</html>
