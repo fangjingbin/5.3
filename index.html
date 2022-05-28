@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="mycss.css">
+    <style>
+      .mySlides {display:none}
+      .w3-left, .w3-right, .w3-badge {cursor:pointer}
+      .w3-badge {height:13px;width:13px;padding:0}
+      </style>
+</head>
+
+<style>
+  .mySlides {display:none;}
+  </style>
+
+<body>
+  <h1 style="color: blue;" >XS Educatuib</h1>
+    <img src="xiaohui.jpg"
+  
+
+    <div >
+      <ul class=daohang>
+        <li><a href="index.html" id="myst2">Home page</a></li>
+        <li><a href="course.html">course</a></li>
+        <li><a href="Map.html">Map</a></li>
+      </ul>
+  
+      <div class="showTime"></div>
+      <script src="myjs.js"></script>
+  
+
+      <form name="myform" method="post" action="mailto:username@hotmail.com" onsubmit="return validateform()" >  
+        Name: <input type="text" name="name"><br/>  
+        Password: <input type="password" name="password"><br/> 
+        Email: <input type="text" name="email"><br/>  
+        student number: <input type="text" name="Snumber"><br/>  
+        <input type="submit" value="register">  
+    </form>  
+    <script src="myjs2.js"></script>
+
+    <h5 id="myst" style="text-align:center;">A tailor-made upgrade training institution for you</h5>
+
+        <table  border="10">
+    <caption></caption>
+  
+    <div class="w3-container">
+      
+    </div>
+    
+    <div class="w3-content w3-display-container" style="max-width:800px">
+      <img class="mySlides" src="xuanchuan.jpg" width="800" height="900">
+      <img class="mySlides" src="chat.jpg" width="800" height="900" >
+      <img class="mySlides" src="yuanmeng.png" width="800" height="900">
+      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " w3-white";
+    }
+    </script>
+    
+
+<tr>
+    <td id="myst">About us</td> 
+</tr>
+
+<tr>
+    <td id="myst3">
+      XS Education is a comprehensive enterprise group providing education services. It is a knowledge industry entity that focuses on the education and research of domestic 3+2 ordinary college entrance examination, pre-exam training, online teaching, teaching materials and books, etc., and integrates many excellent products into one.  XS education was founded in 2015, is headquartered in hangzhou, zhejiang province, at present, has more than 20000 square meters of teaching and research in hangzhou headquarters and their own independent dormitory building, at the same time in quzhou, huzhou, lishui, around zhoushan has set up several branch, in shandong province, opened four branch, henan has set up two branch, in anhui province has set up two branch,  While ensuring quality to meet the needs of students, the organization is also growing and improving.  
+      Years XS education team and service, is dedicated to rise this exam only has more than three hundred domestic outstanding professional development, teachers and teaching service team, to update the change year by year the examination content and competition situation, major courses per year and the innovation of the teaching mode in order to achieve a higher quality standard, through constant innovation and teaching practice,  XS education has always been the source of curriculum innovation and the benchmark of teaching quality in the field of college entrance examination.  XS adheres to the faith of being honest and doing practical things, and firmly believes that the quality of products and services is the root of the existence and development of educational institutions. XS will continue to attract domestic talents, strengthen the research and development of teaching materials and courses, improve service standards, and provide excellent teaching materials and course services for students.  
+      XS Education Group, with its obvious advantages of brand and strength, decided to make a strategic investment of 45 million yuan for the upgrade project, and reached a strate</td>
+</tr>
+</table>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+
+
+
+<table>
+  <tr>
+      <td id="myst">Our value:</td>
+
+  <tr>
+    <td id="myst4">1.We have the best teacher
+      <P>&nbsp;</P>
+      2.Our upgrade rate has always been about 90 persent
+      <P>&nbsp;</P>
+      3.Our teachers are very young, and they are very willing to communicate with their classmates. They also have many topics with their classmates after class  
+    </td>
+    </tr>
+
+  </table>
+
+
+
+
+
+
+
+<table  border="10">
+    <caption></caption>
+    
+  
+  <tr>
+      <td id="myst">Contact us</td></tr>
+</table>
+
+<table>
+  <tr>
+      <td id="myst3">E-mail</td>
+      <td id="myst3">phone</td>
+      <td id="myst3">Address</td></tr>
+
+  <tr>
+    <td id="myst3">154234616@123.com</td>
+    <td id="myst3">13958384400</td>
+    <td id="myst3">NO.113, Dongqianmen South Road, Ningbo City, Zhejiang Province</td></tr>
+
+  </table>
+
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+
+
+
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+  <P>&nbsp;</P>
+
+
+  <h2></h2>
+
+  <footer>  
+    The creator of this website is Courtier
+      </footer>
+
+</body>
+</html>
